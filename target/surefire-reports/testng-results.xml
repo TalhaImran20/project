@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-07T03:30:23 CEST" name="Suite" finished-at="2023-05-07T03:31:47 CEST" duration-ms="83904">
+    <groups>
+    </groups>
+    <test started-at="2023-05-07T03:30:23 CEST" name="Test" finished-at="2023-05-07T03:31:47 CEST" duration-ms="83904">
+      <class name="testingAssignment.arithmaticOperations">
+        <test-method signature="testBasicArithmeticOperations()[pri:0, instance:testingAssignment.arithmaticOperations@6e20b53a]" started-at="2023-05-07T03:30:52 CEST" name="testBasicArithmeticOperations" finished-at="2023-05-07T03:30:57 CEST" duration-ms="4811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBasicArithmeticOperations -->
+      </class> <!-- testingAssignment.arithmaticOperations -->
+      <class name="testingAssignment.handleNegNumbers">
+        <test-method signature="testCalculatorWithNegativeNumbers()[pri:0, instance:testingAssignment.handleNegNumbers@8dbdac1]" started-at="2023-05-07T03:30:43 CEST" name="testCalculatorWithNegativeNumbers" finished-at="2023-05-07T03:30:52 CEST" duration-ms="9392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCalculatorWithNegativeNumbers -->
+      </class> <!-- testingAssignment.handleNegNumbers -->
+      <class name="testingAssignment.handleDecimalNum">
+        <test-method signature="testDecimalNumberCalculation()[pri:0, instance:testingAssignment.handleDecimalNum@6aba2b86]" started-at="2023-05-07T03:31:11 CEST" name="testDecimalNumberCalculation" finished-at="2023-05-07T03:31:21 CEST" duration-ms="9853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecimalNumberCalculation -->
+      </class> <!-- testingAssignment.handleDecimalNum -->
+      <class name="testingAssignment.handleLargerNum">
+        <test-method signature="testLargeNumbers()[pri:0, instance:testingAssignment.handleLargerNum@3ce1e309]" started-at="2023-05-07T03:31:02 CEST" name="testLargeNumbers" description="Verify calculator can handle large numbers correctly" finished-at="2023-05-07T03:31:11 CEST" duration-ms="8736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLargeNumbers -->
+      </class> <!-- testingAssignment.handleLargerNum -->
+      <class name="testingAssignment.handleLongEqua">
+        <test-method signature="testLongEquation()[pri:0, instance:testingAssignment.handleLongEqua@71809907]" started-at="2023-05-07T03:30:57 CEST" name="testLongEquation" description="Verify that the calculator&#039;s display can handle long equations (over 20 characters) correctly." finished-at="2023-05-07T03:31:02 CEST" duration-ms="5009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLongEquation -->
+      </class> <!-- testingAssignment.handleLongEqua -->
+      <class name="testingAssignment.buttonsExist">
+        <test-method signature="testButtonFunctionality()[pri:0, instance:testingAssignment.buttonsExist@32eff876]" started-at="2023-05-07T03:30:36 CEST" name="testButtonFunctionality" finished-at="2023-05-07T03:30:43 CEST" duration-ms="6595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testButtonFunctionality -->
+      </class> <!-- testingAssignment.buttonsExist -->
+      <class name="testingAssignment.historyFunction">
+        <test-method signature="testHistoryFeature()[pri:0, instance:testingAssignment.historyFunction@74e52303]" started-at="2023-05-07T03:31:32 CEST" name="testHistoryFeature" description="Verify history feature" finished-at="2023-05-07T03:31:39 CEST" duration-ms="7596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHistoryFeature -->
+      </class> <!-- testingAssignment.historyFunction -->
+      <class name="testingAssignment.logIn">
+        <test-method signature="verifyCalculatorIsDisplayed()[pri:0, instance:testingAssignment.logIn@158da8e]" started-at="2023-05-07T03:31:21 CEST" name="verifyCalculatorIsDisplayed" finished-at="2023-05-07T03:31:32 CEST" duration-ms="10644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCalculatorIsDisplayed -->
+      </class> <!-- testingAssignment.logIn -->
+      <class name="testingAssignment.checkComplexNum$ComplexCalculationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testingAssignment.checkComplexNum$ComplexCalculationTest@384ad17b]" started-at="2023-05-07T03:30:24 CEST" name="setup" finished-at="2023-05-07T03:30:35 CEST" duration-ms="11456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyComplexCalculation()[pri:0, instance:testingAssignment.checkComplexNum$ComplexCalculationTest@384ad17b]" started-at="2023-05-07T03:30:35 CEST" name="verifyComplexCalculation" description="Verify that the calculator can perform complex calculations correctly." finished-at="2023-05-07T03:30:36 CEST" duration-ms="1273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyComplexCalculation -->
+      </class> <!-- testingAssignment.checkComplexNum$ComplexCalculationTest -->
+      <class name="testingAssignment.advanceOperations">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testingAssignment.advanceOperations@47af7f3d]" started-at="2023-05-07T03:30:23 CEST" name="setUp" finished-at="2023-05-07T03:30:24 CEST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSquareRoot()[pri:0, instance:testingAssignment.advanceOperations@47af7f3d]" started-at="2023-05-07T03:31:39 CEST" name="testSquareRoot" finished-at="2023-05-07T03:31:46 CEST" duration-ms="7069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareRoot -->
+        <test-method is-config="true" signature="testPercentage()[pri:0, instance:testingAssignment.advanceOperations@47af7f3d]" started-at="2023-05-07T03:31:46 CEST" name="testPercentage" finished-at="2023-05-07T03:31:47 CEST" duration-ms="1088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPercentage -->
+      </class> <!-- testingAssignment.advanceOperations -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

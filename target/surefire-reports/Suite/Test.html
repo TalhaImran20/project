@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun May 07 03:30:23 CEST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>83 seconds (83904 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testingAssignment.handleNegNumbers.testCalculatorWithNegativeNumbers()'><b>testCalculatorWithNegativeNumbers</b><br>Test class: testingAssignment.handleNegNumbers</td>
+<td></td>
+<td>9</td>
+<td>testingAssignment.handleNegNumbers@8dbdac1</td></tr>
+<tr>
+<td title='testingAssignment.handleDecimalNum.testDecimalNumberCalculation()'><b>testDecimalNumberCalculation</b><br>Test class: testingAssignment.handleDecimalNum</td>
+<td></td>
+<td>9</td>
+<td>testingAssignment.handleDecimalNum@6aba2b86</td></tr>
+<tr>
+<td title='testingAssignment.logIn.verifyCalculatorIsDisplayed()'><b>verifyCalculatorIsDisplayed</b><br>Test class: testingAssignment.logIn</td>
+<td></td>
+<td>10</td>
+<td>testingAssignment.logIn@158da8e</td></tr>
+<tr>
+<td title='testingAssignment.handleLargerNum.testLargeNumbers()'><b>testLargeNumbers</b><br>Test class: testingAssignment.handleLargerNum<br>Test method: Verify calculator can handle large numbers correctly</td>
+<td></td>
+<td>8</td>
+<td>testingAssignment.handleLargerNum@3ce1e309</td></tr>
+<tr>
+<td title='testingAssignment.buttonsExist.testButtonFunctionality()'><b>testButtonFunctionality</b><br>Test class: testingAssignment.buttonsExist</td>
+<td></td>
+<td>6</td>
+<td>testingAssignment.buttonsExist@32eff876</td></tr>
+<tr>
+<td title='testingAssignment.historyFunction.testHistoryFeature()'><b>testHistoryFeature</b><br>Test class: testingAssignment.historyFunction<br>Test method: Verify history feature</td>
+<td></td>
+<td>7</td>
+<td>testingAssignment.historyFunction@74e52303</td></tr>
+<tr>
+<td title='testingAssignment.checkComplexNum$ComplexCalculationTest.verifyComplexCalculation()'><b>verifyComplexCalculation</b><br>Test class: testingAssignment.checkComplexNum$ComplexCalculationTest<br>Test method: Verify that the calculator can perform complex calculations correctly.</td>
+<td></td>
+<td>1</td>
+<td>testingAssignment.checkComplexNum$ComplexCalculationTest@384ad17b</td></tr>
+<tr>
+<td title='testingAssignment.advanceOperations.testSquareRoot()'><b>testSquareRoot</b><br>Test class: testingAssignment.advanceOperations</td>
+<td></td>
+<td>7</td>
+<td>testingAssignment.advanceOperations@47af7f3d</td></tr>
+<tr>
+<td title='testingAssignment.handleLongEqua.testLongEquation()'><b>testLongEquation</b><br>Test class: testingAssignment.handleLongEqua<br>Test method: Verify that the calculator's display can handle long equations (over 20 characters) correctly.</td>
+<td></td>
+<td>5</td>
+<td>testingAssignment.handleLongEqua@71809907</td></tr>
+<tr>
+<td title='testingAssignment.arithmaticOperations.testBasicArithmeticOperations()'><b>testBasicArithmeticOperations</b><br>Test class: testingAssignment.arithmaticOperations</td>
+<td></td>
+<td>4</td>
+<td>testingAssignment.arithmaticOperations@6e20b53a</td></tr>
+</table><p>
+</body>
+</html>
