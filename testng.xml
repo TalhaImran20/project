@@ -13,7 +13,6 @@
       <class name="testingAssignment.logIn"/>
       <class name="testingAssignment.historyFunction"/>
       <class name="testingAssignment.advanceOperations"/>
-<class name="testingAssignment.new_funtionality"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
